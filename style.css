@@ -1,0 +1,71 @@
+body {
+font-family: 'Open Sas', sans-serif;
+font-weight: 300;
+background-image: url(images/istockphoto-1411610158-1024x1024.jpg);
+}
+
+img {
+  width: 100px;
+  border-radius: 20%;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+.home-card {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 35px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.spotify {
+  border: solid #18d860;
+  background-color: #18d860;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+
+}
+
+.spotify:hover {
+  background-color: rgb(5, 5, 5);
+  color: #18d860;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.card {
+  text-align: center;
+  background-color:rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+p {
+  font-family: 'Protest Revolution';
+  font-size: 18px;
+}
+
+.button-follow {
+  border: solid black;
+}
+
+.iconfollow {
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+
+.list-inline{
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li{
+  display: inline;
+  margin: 0px 25px;
+}
